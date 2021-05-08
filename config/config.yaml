@@ -1,0 +1,52 @@
+title: Rik de Groot
+assetsDir: content/assets
+enableRobotsTXT: true
+metaDataFormat: yaml
+baseURL: https://www.forsure.dev/
+permalinks:
+    posts: /-/:year/:month/:day/:title
+    tags: /t/:slug
+    policies: /policy/:title
+    documents: /doc/:title
+languageCode: en-us
+paginate: 10
+themesDir: themes
+theme: m10c
+enableEmoji: true
+
+enableGitInfo: true
+disqusShortname: www-forsure-dev
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+# Code highlight
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
+pygmentsStyle: monokai
+pygmentsCodeFences: true
+
+params:
+    # show cookie policy
+    cookiePolicy: false
+    author: Rik de Groot
+    description: Code, cook and bake. Working @easeeonline
+    avatar: images/rik-de-groot.jpg
+    images:
+        - images/og/cover.png
+    social:
+        - name: gitlab
+          url: https://gitlab.com/hwdegroot
+        - name: twitter
+          url: https://twitter.com/hwdegroot
+        - name: linkedin
+          url: https://www.linkedin.com/in/rikhwdegroot/
+    style:
+        # green
+        darkestColor: "#282e37"
+        darkColor: "#3d434c"
+        primaryColor: "#67eba2"
+        lightColor: "#d3d3d3"
+        lighestColor: "#fff"

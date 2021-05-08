@@ -1,0 +1,15 @@
+/* /fonts/fonts.css */
+@font-face {
+    font-family: "ScunthorpeSansWeb";
+    src: url(/fonts/scunthorpe-sans/scunthorpe-sans.woff?v=2) format("woff");
+    text-rendering: optimizeLegibility;
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+}
+
+.censored {
+    font-family: "ScunthorpeSansWeb", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+}
